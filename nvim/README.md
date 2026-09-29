@@ -55,6 +55,23 @@ Mason UI実行コマンド
 | `gO` | Document symbols |
 | `[d` / `]d` | Previous / next diagnostic |
 
+## Plugins
+
+### gitsigns.nvim
+
+Git blameを確認するために導入。以下を理由に採用。
+
+-- Git blameに加えて、diffやhunkなどのGit連携機能を持つ
+-- 現在も活発にメンテナンスされている
+-- 依存関係が少なく、設定もシンプル
+
+まずはblameだけ利用し、必要になったら他のGit機能も利用できる
+現在は主に以下を利用。
+
+```vim
+:Gitsigns blame_line
+```
+
 ## Plugin updates
 
 プラグインアップデート時のコマンド
