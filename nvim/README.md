@@ -30,19 +30,13 @@ vim.packを使うため、Neovim0.12以上が必要。
 
 ## Check LSP
 
-LSPが動作しているか確認するためのコマンド集。
+LSPが動作しているか確認するためのコマンド
 
 ```vim
 :checkhealth vim.lsp
 ```
 
-or:
-
-```vim
-:LspInfo
-```
-
-Mason UI:
+Mason UI実行コマンド
 
 ```vim
 :Mason
